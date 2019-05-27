@@ -1,0 +1,24 @@
+#navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+  
+  #navbar a {
+    float: right;
+    display: block;
+    color: #f10400;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+ 
