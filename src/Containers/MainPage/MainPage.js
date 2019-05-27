@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScrollingNavigationBar from '../../Layouts/ScrollingNavigationBar/ScrollingNavigationBar'
 import Carousel from '../../Components/Carousel/Carousel'
 import './MainPage.css'
+import Introduction from '../../Components/Introduction/Introduction';
 
 class MainPage extends Component {
 
@@ -12,9 +13,10 @@ class MainPage extends Component {
         return (
             <React.Fragment>
                 <ScrollingNavigationBar />
-                <Carousel >
+                <Carousel />
+                <Introduction/>
 
-                </Carousel>
+                
             </React.Fragment>
 
 
