@@ -15,7 +15,7 @@ class MainPage extends Component {
                 <ScrollingNavigationBar />
                 <Carousel />
                 <Introduction/>
-
+              
                 
             </React.Fragment>
 
