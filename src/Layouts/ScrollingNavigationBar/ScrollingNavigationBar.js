@@ -5,9 +5,9 @@ import './ScrollingNavigationBar.css'
 const scrollingNavigationBar = (props) => {
     return (
         <div id="navbar">
-            <a href="#home">Home</a>
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
+            <a href="#home">Sign out</a>
+            <a href="#news">Sign in</a>
+            <a href="#contact">Home</a>
         </div>
     )
 }
