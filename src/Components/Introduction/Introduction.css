@@ -13,7 +13,7 @@ h3 {
 b {
     color: #EB4947
 }
-div > p {
+#paragraph{
     text-align: center;
     padding : 0px 300px;
 

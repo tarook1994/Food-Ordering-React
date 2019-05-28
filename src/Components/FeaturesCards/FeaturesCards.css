@@ -1,0 +1,27 @@
+.container-cards {
+    width: 100%;
+}
+
+.container-cards > div {
+    width: 33%;
+
+}
+
+@media screen and (max-width: 500px) {
+    .container-cards > div {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
