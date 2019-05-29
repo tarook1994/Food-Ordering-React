@@ -3,6 +3,7 @@ import ScrollingNavigationBar from '../../Layouts/ScrollingNavigationBar/Scrolli
 import Carousel from '../../Components/Carousel/Carousel'
 import './MainPage.css'
 import Introduction from '../../Components/Introduction/Introduction';
+import RestaurantsPreview from '../../Components/RestaurantsPreview/RestaurantsPreview';
 
 class MainPage extends Component {
 
@@ -15,7 +16,7 @@ class MainPage extends Component {
                 <ScrollingNavigationBar />
                 <Carousel />
                 <Introduction/>
-                    
+                <RestaurantsPreview/>                    
 
 
             </React.Fragment>
