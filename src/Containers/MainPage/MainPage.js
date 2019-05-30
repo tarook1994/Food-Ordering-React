@@ -4,6 +4,7 @@ import Carousel from '../../Components/Carousel/Carousel'
 import './MainPage.css'
 import Introduction from '../../Components/Introduction/Introduction';
 import RestaurantsPreview from '../../Components/RestaurantsPreview/RestaurantsPreview';
+import Restaurants from '../../Components/Restaurants/Restaurants';
 
 class MainPage extends Component {
 
@@ -15,8 +16,9 @@ class MainPage extends Component {
             <React.Fragment>
                 <ScrollingNavigationBar />
                 <Carousel />
-                <Introduction/>
-                <RestaurantsPreview/>                    
+                <Introduction />
+                <RestaurantsPreview />
+                <Restaurants/>
 
 
             </React.Fragment>
