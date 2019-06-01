@@ -1,7 +1,12 @@
 .contact-container {
     background-color: #EB4947;
     width: 100%;
+    padding: 16px;
+    color: white
     
+}
+.contact-container > h3 {
+    color: white;
 }
 
 

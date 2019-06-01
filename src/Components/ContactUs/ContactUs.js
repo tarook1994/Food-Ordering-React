@@ -6,8 +6,12 @@ const contactUs = (props) => {
 
     return (
         <div className = 'contact-container'>
-            <Card icon = {true}/>
-            <Card/>
+            <h3>CONTACT US</h3>
+            <Card icon ={true}
+                title = 'Email'/>
+            <Card icon ={true}
+                title  ='Phone'/>
+            
          
 
         </div>
