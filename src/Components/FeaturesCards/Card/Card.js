@@ -3,6 +3,7 @@ import './Card.css'
 import image from '../../../Assets/Images/my.jpg'
 
 const card = (props) => {
+
     return (
             <div className="card">
                 <img src={image} alt="Avatar"  />

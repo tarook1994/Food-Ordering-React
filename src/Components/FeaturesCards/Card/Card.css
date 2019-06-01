@@ -13,3 +13,14 @@
   .img-container {
     padding: 2px 16px;
   }
+
+
+  .red-card {
+    margin: 0px;
+    padding: 24px 0px;
+    display: inline-block;
+    background-color: #EB4947
+  }
+
+  
+

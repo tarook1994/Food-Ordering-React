@@ -1,0 +1,20 @@
+.contact-container {
+    background-color: #EB4947;
+    width: 100%;
+    
+}
+
+
+.contact-container > div {
+    width: 33%;
+
+}
+
+@media screen and (max-width: 500px) {
+    .container-cards > div {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }

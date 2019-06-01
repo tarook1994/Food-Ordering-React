@@ -10,7 +10,7 @@ const restaurantsPreview = (props) => {
             </div>
 
             <div >
-                <h4>RESPONSIVE DESIGN</h4>
+                <h4>ALL RESTAURANTS IN ONE PLACE</h4>
                 <p className ="feature-paragraph">
                     asdsadasdasdasdasdasdasdasdasd
                 </p>

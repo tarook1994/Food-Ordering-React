@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-alice-carousel": "^1.13.11",
+    "react-animation": "^1.0.9",
     "react-dom": "^16.8.6",
     "react-headroom": "^2.2.8",
     "react-responsive-carousel": "^3.1.49",
