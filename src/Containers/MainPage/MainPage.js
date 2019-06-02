@@ -6,6 +6,7 @@ import Introduction from '../../Components/Introduction/Introduction';
 import RestaurantsPreview from '../../Components/RestaurantsPreview/RestaurantsPreview';
 import Restaurants from '../../Components/Restaurants/Restaurants';
 import ContactUs from '../../Components/ContactUs/ContactUs';
+import Footer from '../../Layouts/Footer/Footer'
 
 class MainPage extends Component {
 
@@ -21,6 +22,7 @@ class MainPage extends Component {
                 <RestaurantsPreview />
                 <Restaurants/>
                 <ContactUs/>
+                <Footer/>
 
 
             </React.Fragment>
