@@ -1,13 +1,42 @@
 import React from 'react';
 import './Login.css'
+import { FormControl } from 'react-bootstrap'
 
 class Login extends React.Component {
 
     render() {
         return (
             <div className='login-container'>
+                <div style={{color:'transparent',
+            cursor:'default'}}>sadas</div>
+                    <div id='formContent'>
+                        <h1>Login</h1>
+                        <form>
+                            <FormControl className="fadeIn second"
+                                type="text"
+                                value=''
+                                placeholder="Username"
+                            // onChange={this.handleChange}
+                            />
 
-            </div>
+                            <FormControl className="fadeIn third"
+                                type="text"
+                                value=''
+                                placeholder="Password"
+                            // onChange={this.handleChange}
+                            />
+                            <br></br>
+                            <button id='button'  >Login</button>
+                        </form>
+                        <div className="formFooter">
+                    </div>
+                    </div>
+
+
+                   
+
+                </div>
+
         )
     }
 }
