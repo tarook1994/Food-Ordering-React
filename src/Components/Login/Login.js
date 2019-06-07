@@ -12,14 +12,14 @@ class Login extends React.Component {
                     <div id='formContent'>
                         <h1>Login</h1>
                         <form>
-                            <FormControl className="fadeIn second"
+                            <FormControl id='formControl'
                                 type="text"
                                 value=''
                                 placeholder="Username"
                             // onChange={this.handleChange}
                             />
 
-                            <FormControl className="fadeIn third"
+                            <FormControl id='formControl'
                                 type="text"
                                 value=''
                                 placeholder="Password"
