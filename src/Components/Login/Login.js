@@ -11,7 +11,7 @@ class Login extends React.Component {
             cursor:'default'}}>sadas</div>
                     <div id='formContent'>
                         <h1>Login</h1>
-                        <form>
+                        
                             <FormControl id='formControl'
                                 type="text"
                                 value=''
@@ -26,8 +26,8 @@ class Login extends React.Component {
                             // onChange={this.handleChange}
                             />
                             <br></br>
-                            <button id='button'  >Login</button>
-                        </form>
+                            <button id='button' onClick={this.props.click} >Login</button>
+                        
                         <div className="formFooter">
                     </div>
                     </div>
